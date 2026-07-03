@@ -1,6 +1,6 @@
 # Social Neuron - OpenClaw Skill
 
-OpenClaw skill for the [Social Neuron](https://socialneuron.com) MCP server. 52 tools for AI-powered social media content creation, distribution, analytics, and optimization.
+OpenClaw skill for the [Social Neuron](https://socialneuron.com) MCP server. 96 tools (94 exposed remotely) for AI-powered social media content creation, distribution, analytics, and optimization.
 
 ## Install
 

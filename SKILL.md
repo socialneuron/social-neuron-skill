@@ -1,15 +1,14 @@
 ---
 name: social-neuron
-description: AI-powered social media management with 52 MCP tools. Create content, distribute to multiple platforms, track analytics, and optimize with closed-loop learning.
-version: 1.0.0
+description: AI-powered social media management with 96 tools (94 exposed remotely). Create content, distribute to multiple platforms, track analytics, and optimize with closed-loop learning.
+version: 1.1.0
 metadata:
   openclaw:
     requires:
       env:
         - SOCIALNEURON_API_KEY
       bins:
-        - npx
-    primaryEnv: SOCIALNEURON_API_KEY
+        - socialneuron-mcp
     homepage: https://socialneuron.com/for-agents
     install:
       - kind: node
@@ -19,7 +18,7 @@ metadata:
 
 # Social Neuron
 
-AI-powered social media management through 52 MCP tools. Create content with 35+ AI models, distribute to multiple platforms, track analytics, and let performance data improve future content automatically.
+AI-powered social media management through 96 tools (94 exposed remotely). Create content with 35+ AI models, distribute to multiple platforms, track analytics, and let performance data improve future content automatically.
 
 ## Setup
 
@@ -67,7 +66,7 @@ Social Neuron runs a closed-loop content system:
 
 The loop gets smarter over time. Every post teaches the system what resonates with your audience.
 
-## Tools (52 total)
+## Tools (96 tools, 94 exposed remotely)
 
 ### Research and Ideation
 - `fetch_trends` - Discover trending topics and hashtags by platform
@@ -160,12 +159,12 @@ OAuth 2.0 + PKCE with device code flow. Access controlled through hierarchical s
 
 ## Pricing
 
-| Tier | Price | Credits/mo | MCP Access |
-|------|-------|-----------|------------|
-| Free | $0 | 100 | None |
-| Starter | $29/mo | 800 | Read + Analytics |
-| Pro | $79/mo | 2,000 | Full |
-| Team | $199/mo | 6,500 | Full + multi-user |
+| Plan    | Price   | Credits | MCP Access |
+| Free    | $0/mo   | 50      | None |
+| Starter | $19/mo  | 500     | None |
+| Pro     | $49/mo  | 1,500   | read + analytics + write + distribute |
+| Team    | $99/mo  | 3,500   | Full |
+| Agency  | $249/mo | 10,000  | Full |
 
 ## Links
 
